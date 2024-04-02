@@ -36,7 +36,7 @@ app.post('/product', (req, res, next) => {
   }
 
   const createdProduct = {
-    id: uuidv4(),
+    id: uuid(),
     title,
     price
   };
